@@ -1,0 +1,2 @@
+/usr/bin/ar qc libmiddleware.a CMakeFiles/middleware.dir/middleware.cpp.o
+/usr/bin/ranlib libmiddleware.a

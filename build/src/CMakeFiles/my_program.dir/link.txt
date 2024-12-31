@@ -1,1 +1,1 @@
-/usr/bin/c++ CMakeFiles/my_program.dir/main.cpp.o -o ../my_program  /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.15.3 ../libmiddleware/libmiddleware.a /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.15.3 /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.15.3 
+/usr/bin/c++ -g CMakeFiles/my_program.dir/main.cpp.o -o ../my_program  ../libmiddleware/libmiddleware.a ../gui/libgui.a /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.15.3 /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.15.3 /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.15.3 ../QR-Code-generator/libqrcodegen.a 

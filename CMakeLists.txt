@@ -10,3 +10,5 @@ find_package(Qt5 REQUIRED COMPONENTS Widgets)
 # 添加子目录
 add_subdirectory(src)
 add_subdirectory(libmiddleware)
+add_subdirectory(gui)
+add_subdirectory(QR-Code-generator)

@@ -6,3 +6,10 @@
 /home/sxf/seele_test/cplus_test/build/libmiddleware/CMakeFiles/middleware.dir
 /home/sxf/seele_test/cplus_test/build/libmiddleware/CMakeFiles/edit_cache.dir
 /home/sxf/seele_test/cplus_test/build/libmiddleware/CMakeFiles/rebuild_cache.dir
+/home/sxf/seele_test/cplus_test/build/gui/CMakeFiles/gui.dir
+/home/sxf/seele_test/cplus_test/build/gui/CMakeFiles/edit_cache.dir
+/home/sxf/seele_test/cplus_test/build/gui/CMakeFiles/rebuild_cache.dir
+/home/sxf/seele_test/cplus_test/build/gui/CMakeFiles/gui_autogen.dir
+/home/sxf/seele_test/cplus_test/build/QR-Code-generator/CMakeFiles/qrcodegen.dir
+/home/sxf/seele_test/cplus_test/build/QR-Code-generator/CMakeFiles/edit_cache.dir
+/home/sxf/seele_test/cplus_test/build/QR-Code-generator/CMakeFiles/rebuild_cache.dir

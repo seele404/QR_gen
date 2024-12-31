@@ -92,10 +92,12 @@ my_program_EXTERNAL_OBJECTS =
 
 my_program: src/CMakeFiles/my_program.dir/main.cpp.o
 my_program: src/CMakeFiles/my_program.dir/build.make
-my_program: /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.15.3
 my_program: libmiddleware/libmiddleware.a
+my_program: gui/libgui.a
+my_program: /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.15.3
 my_program: /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.15.3
 my_program: /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.15.3
+my_program: QR-Code-generator/libqrcodegen.a
 my_program: src/CMakeFiles/my_program.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/sxf/seele_test/cplus_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../my_program"
 	cd /home/sxf/seele_test/cplus_test/build/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/my_program.dir/link.txt --verbose=$(VERBOSE)

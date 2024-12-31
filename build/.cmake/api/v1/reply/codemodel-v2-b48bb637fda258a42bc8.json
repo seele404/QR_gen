@@ -1,0 +1,160 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4
+					],
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "src",
+					"jsonFile" : "directory-src-Debug-b6cf2213fc5053b67c22.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "libmiddleware",
+					"jsonFile" : "directory-libmiddleware-Debug-f4f1a63b51a525fda074.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "libmiddleware",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "gui",
+					"jsonFile" : "directory-gui-Debug-748b39b5a140a70fe5f8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "gui",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				},
+				{
+					"build" : "QR-Code-generator",
+					"jsonFile" : "directory-QR-Code-generator-Debug-81694885a1ba2d8a0dc3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "QR-Code-generator",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					],
+					"name" : "MyProject",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 3,
+					"id" : "gui::@35f413a6cfe5475b20aa",
+					"jsonFile" : "target-gui-Debug-c6514cba295942a583a7.json",
+					"name" : "gui",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "gui_autogen::@35f413a6cfe5475b20aa",
+					"jsonFile" : "target-gui_autogen-Debug-d7d72e0b6cdc68882405.json",
+					"name" : "gui_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "middleware::@8a2a5a0ef1abbc036255",
+					"jsonFile" : "target-middleware-Debug-b0b8a3c2cf6388e7da36.json",
+					"name" : "middleware",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "my_program::@145eef247bfb46b6828c",
+					"jsonFile" : "target-my_program-Debug-694546fd9d90d9b80b1f.json",
+					"name" : "my_program",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "qrcodegen::@58ffc001edb4f27250fa",
+					"jsonFile" : "target-qrcodegen-Debug-fdfddff4fcaf8e5e3619.json",
+					"name" : "qrcodegen",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/sxf/seele_test/cplus_test/build",
+		"source" : "/home/sxf/seele_test/cplus_test"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 5
+	}
+}

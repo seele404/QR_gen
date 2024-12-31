@@ -142,6 +142,45 @@ middleware/fast:
 	$(MAKE) $(MAKESILENT) -f libmiddleware/CMakeFiles/middleware.dir/build.make libmiddleware/CMakeFiles/middleware.dir/build
 .PHONY : middleware/fast
 
+#=============================================================================
+# Target rules for targets named gui
+
+# Build rule for target.
+gui: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gui
+.PHONY : gui
+
+# fast build rule for target.
+gui/fast:
+	$(MAKE) $(MAKESILENT) -f gui/CMakeFiles/gui.dir/build.make gui/CMakeFiles/gui.dir/build
+.PHONY : gui/fast
+
+#=============================================================================
+# Target rules for targets named gui_autogen
+
+# Build rule for target.
+gui_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gui_autogen
+.PHONY : gui_autogen
+
+# fast build rule for target.
+gui_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f gui/CMakeFiles/gui_autogen.dir/build.make gui/CMakeFiles/gui_autogen.dir/build
+.PHONY : gui_autogen/fast
+
+#=============================================================================
+# Target rules for targets named qrcodegen
+
+# Build rule for target.
+qrcodegen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 qrcodegen
+.PHONY : qrcodegen
+
+# fast build rule for target.
+qrcodegen/fast:
+	$(MAKE) $(MAKESILENT) -f QR-Code-generator/CMakeFiles/qrcodegen.dir/build.make QR-Code-generator/CMakeFiles/qrcodegen.dir/build
+.PHONY : qrcodegen/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -150,8 +189,11 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... gui_autogen"
+	@echo "... gui"
 	@echo "... middleware"
 	@echo "... my_program"
+	@echo "... qrcodegen"
 .PHONY : help
 
 

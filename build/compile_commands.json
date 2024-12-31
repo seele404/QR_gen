@@ -1,0 +1,32 @@
+[
+{
+  "directory": "/home/sxf/seele_test/cplus_test/build/src",
+  "command": "/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/home/sxf/seele_test/cplus_test/libmiddleware -I/home/sxf/seele_test/cplus_test/gui -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -g -std=gnu++11 -fPIC -o CMakeFiles/my_program.dir/main.cpp.o -c /home/sxf/seele_test/cplus_test/src/main.cpp",
+  "file": "/home/sxf/seele_test/cplus_test/src/main.cpp",
+  "output": "src/CMakeFiles/my_program.dir/main.cpp.o"
+},
+{
+  "directory": "/home/sxf/seele_test/cplus_test/build/libmiddleware",
+  "command": "/usr/bin/c++   -g -std=gnu++11 -o CMakeFiles/middleware.dir/middleware.cpp.o -c /home/sxf/seele_test/cplus_test/libmiddleware/middleware.cpp",
+  "file": "/home/sxf/seele_test/cplus_test/libmiddleware/middleware.cpp",
+  "output": "libmiddleware/CMakeFiles/middleware.dir/middleware.cpp.o"
+},
+{
+  "directory": "/home/sxf/seele_test/cplus_test/build/gui",
+  "command": "/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/home/sxf/seele_test/cplus_test/build/gui/gui_autogen/include -I/home/sxf/seele_test/cplus_test/QR-Code-generator -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -g -std=gnu++11 -fPIC -o CMakeFiles/gui.dir/gui_autogen/mocs_compilation.cpp.o -c /home/sxf/seele_test/cplus_test/build/gui/gui_autogen/mocs_compilation.cpp",
+  "file": "/home/sxf/seele_test/cplus_test/build/gui/gui_autogen/mocs_compilation.cpp",
+  "output": "gui/CMakeFiles/gui.dir/gui_autogen/mocs_compilation.cpp.o"
+},
+{
+  "directory": "/home/sxf/seele_test/cplus_test/build/gui",
+  "command": "/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/home/sxf/seele_test/cplus_test/build/gui/gui_autogen/include -I/home/sxf/seele_test/cplus_test/QR-Code-generator -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -g -std=gnu++11 -fPIC -o CMakeFiles/gui.dir/MyWindow.cpp.o -c /home/sxf/seele_test/cplus_test/gui/MyWindow.cpp",
+  "file": "/home/sxf/seele_test/cplus_test/gui/MyWindow.cpp",
+  "output": "gui/CMakeFiles/gui.dir/MyWindow.cpp.o"
+},
+{
+  "directory": "/home/sxf/seele_test/cplus_test/build/QR-Code-generator",
+  "command": "/usr/bin/c++   -g -std=gnu++11 -o CMakeFiles/qrcodegen.dir/qrcodegen.cpp.o -c /home/sxf/seele_test/cplus_test/QR-Code-generator/qrcodegen.cpp",
+  "file": "/home/sxf/seele_test/cplus_test/QR-Code-generator/qrcodegen.cpp",
+  "output": "QR-Code-generator/CMakeFiles/qrcodegen.dir/qrcodegen.cpp.o"
+}
+]
